@@ -1,0 +1,17 @@
+# Jekyll 빌드 결과물 (가장 중요! 깃허브에 올리면 안 됨)
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Sass 캐시
+.sass-cache/
+
+# Ruby Bundler 설정 (로컬 설정이 섞이지 않게)
+.bundle/
+vendor/
+
+# 운영체제 및 에디터 임시 파일
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
